@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+}
+body{
+  
+}
+.inicio{
+    background-color: #b42ac5;
+    
+}
+
+.menu{
+    position: ;
+}
+.img-back1{
+    background-image: url("./img/banner1.jpg");
+  
+}
+.img-back2{
+    background-image: url('./img/banner2.jpg');
+}
+.img-back3{
+    background-image: url('./img/banner3.jpg');
+}
+
+.back{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    background-position: center;
+}
+.bemvindo{
+     
+}
+
+.paisagem img{
+    height: 50vh;
+    width: 60vh;
+}
+.quemsomos1{
+    padding: 0 25px;
+    
+}
+.quemsomos2{
+    width: 100%;
+    min-width: 200px;
+    font-size: 20px;
+    padding: 0 15px;
+    background-color: #acebc1;
+    border-radius: 20px;
+   
+}
+h1{
+    font-size: 40px;
+}
+h2{
+font-family: Lucida Handwriting;
+font-size: 50px;
+
+
+}
+.paisagem{
+    
+}
+.textoimg{
+    display: flex;
+    flex-direction: row;
+    
+    padding: 0 15px;
+    justify-content: space-around;
+}
+.img-turismo1{
+    background-image: url('./img/turismo1.jpg');
+    
+}
+.img-turismo2{
+    background-image: url('./img/turismo2.jpg');
+}
+.img-turismo3{
+    background-image: url('./img/turismo3.jpg');
+}
+
+.img-turismo1, .img-turismo2, .img-turismo3{
+    height: 60vh;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    
+    
+}
+.carrossel{
+    width: 100vh;
+   margin: 0 auto;
+
+}
+.img-card1{
+ 
+}
+.card:hover{
+    box-shadow: 8px 8px 10px ;
+    transition: 0.8s;
+    cursor: pointer;
+    border: 1px solid #000000;
+}
+
+h6{
+    font-size: 35px;
+
+}
+.rodape{
+    background-color: #b42ac5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: auto;
+
+
+}
+.info{
+    margin: 2%;
+    padding: 0 15px; 
+    display: flex;
+   flex-direction: column;
+    
+   
+   
+}
+.logo2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+    
+}
+@media(max-width:425px) {
+    .logo2{
+        visibility: hidden;
+        width: 1px;
+    }
+    .card-body{
+        text-align: center;
+    }
+     .quemsomos1{
+        text-align: center;
+
+    }
+    .quemsomos2{
+        text-align: center;
+    }
+    h6{
+        text-align: center;
+    }
+    
+}
+
+
